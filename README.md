@@ -9,7 +9,7 @@ _30 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://----------------------------------
+Site published at https://rimantasziedelis.github.io/5-comming-soon/
 Design: [Coming soon](https://--------------------------------------------------------------)
 
 ## Project features
