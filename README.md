@@ -5,7 +5,7 @@
 
 # Coming soon
 
-_30 group website project_
+_kind of a group (30) website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
