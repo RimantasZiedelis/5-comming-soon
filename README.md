@@ -21,4 +21,4 @@ Design: [Coming soon](https://cdn.discordapp.com/attachments/648536139677958156/
 
 ## Authors
 
-[Rimantas]()
+[Rimantas](https://github.com/RimantasZiedelis)
