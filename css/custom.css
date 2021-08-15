@@ -1,0 +1,93 @@
+/* base */
+@import "./base/reset.css";
+@import "./base/variables.css";
+@import "./base/layout.css";
+
+/* 3rd party*/
+
+/* components */
+@import "./components/button.css";
+@import "./components/clock.css";
+@import "./components/form.css";
+@import "./components/mouse.css";
+@import "./components/progres-bar.css";
+
+/* CUSTOM STYLE BELOW THIS COMMENT LINE */
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+bg-secondary {
+  background-color: var(--secondary-colar);
+}
+/* hero content*/
+.hero {
+  min-height: 100vh;
+  text-align: center;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.hero .logo {
+  margin-bottom: 40px;
+  height: 40px;
+}
+.hero .main-title {
+  margin-bottom: 20px;
+  font-size: 75px;
+  text-transform: uppercase;
+}
+.hero .main-describtion {
+  margin-bottom: 40px;
+  font-size: 25px;
+  color: #555;
+}
+.hero .clock {
+  margin-bottom: 40px;
+}
+.hero .form {
+  margin-bottom: 20px;
+}
+/* main content*/
+main .left-column {
+  width: 50%;
+  float: left;
+}
+main .right-column {
+  width: 40%;
+  float: right;
+}
+main .section-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+main .section-decribtion {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 18;
+  line-height: 25;
+}
+
+main .section-decribtion > a {
+  color: var(--secondary-color);
+  color: #555;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: none;
+}
+main .section-decribtion > a:hover {
+ text-decoration: underline;
+}
+@media (max-width: 900px) {
+    main .left-column {
+        width: 100%;
+        margin-bottom: 80px;
+      }
+      main .right-column {
+        width: 100%;
+           
+}
+
+
+/* footer content*/
