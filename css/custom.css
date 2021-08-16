@@ -18,7 +18,7 @@
   background-color: var(--primary-color);
 }
 bg-secondary {
-  background-color: var(--secondary-colar);
+  background-color: var(--secondary-color);
 }
 /* hero content*/
 .hero {
@@ -38,7 +38,7 @@ bg-secondary {
   font-size: 75px;
   text-transform: uppercase;
 }
-.hero .main-describtion {
+.hero .main-description {
   margin-bottom: 40px;
   font-size: 25px;
   color: #555;
@@ -51,7 +51,7 @@ bg-secondary {
 }
 
 /* main content */
- main .left-column {
+main .left-column {
   width: 50%;
   float: left;
 }
@@ -65,33 +65,24 @@ main .section-title {
    margin-bottom: 20px;
    text-transform: uppercase;
 }
-main .section-describtion {
+main .section-description {
   margin-bottom: 20px;
   color: #555;
   font-size: 18px;
   line-height: 25px;
 }
 
-<<<<<<< HEAD
-main .section-decribtion > a {
-  color: var(--secondary-colar);
-  color: #555;
-=======
-main .section-describtion > a {
-  color: var(--secondary-colar);
->>>>>>> d4ab33c2657da2ab953280fae42ba708e4a446e5
+main .section-description > a {
+  color: var(--secondary-color);
   font-size: inherit;
   line-height: inherit;
   text-decoration: none;
 }
-main .section-describtion > a:hover {
- text-decoration: underline;
+main .section-description > a:hover {
+  text-decoration: underline;
 }
-<<<<<<< HEAD
+
 @media (max-width: 900px) {
-=======
- @media (max-width: 900px) {
->>>>>>> d4ab33c2657da2ab953280fae42ba708e4a446e5
     main .left-column {
         width: 100%;
         margin-bottom: 80px;
@@ -99,9 +90,5 @@ main .section-describtion > a:hover {
       main .right-column {
         width: 100%;
   }
-<<<<<<< HEAD
-}
-=======
 } 
->>>>>>> d4ab33c2657da2ab953280fae42ba708e4a446e5
 
