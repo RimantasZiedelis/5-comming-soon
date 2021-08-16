@@ -49,45 +49,59 @@ bg-secondary {
 .hero .form {
   margin-bottom: 20px;
 }
-/* main content*/
-main .left-column {
+
+/* main content */
+ main .left-column {
   width: 50%;
   float: left;
 }
+
 main .right-column {
   width: 40%;
   float: right;
+ 
 }
 main .section-title {
-  text-transform: uppercase;
-  margin-bottom: 20px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
 }
-main .section-decribtion {
+main .section-describtion {
   margin-bottom: 20px;
   color: #555;
-  font-size: 18;
-  line-height: 25;
+  font-size: 18px;
+  line-height: 25px;
 }
 
+<<<<<<< HEAD
 main .section-decribtion > a {
-  color: var(--secondary-color);
+  color: var(--secondary-colar);
   color: #555;
+=======
+main .section-describtion > a {
+  color: var(--secondary-colar);
+>>>>>>> d4ab33c2657da2ab953280fae42ba708e4a446e5
   font-size: inherit;
   line-height: inherit;
   text-decoration: none;
 }
-main .section-decribtion > a:hover {
+main .section-describtion > a:hover {
  text-decoration: underline;
 }
+<<<<<<< HEAD
 @media (max-width: 900px) {
+=======
+ @media (max-width: 900px) {
+>>>>>>> d4ab33c2657da2ab953280fae42ba708e4a446e5
     main .left-column {
         width: 100%;
         margin-bottom: 80px;
       }
       main .right-column {
         width: 100%;
-           
+  }
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> d4ab33c2657da2ab953280fae42ba708e4a446e5
 
-
-/* footer content*/
