@@ -54,7 +54,6 @@ bg-secondary {
  main .left-column {
   width: 50%;
   float: left;
-  
 }
 
 main .right-column {
@@ -63,27 +62,26 @@ main .right-column {
  
 }
 main .section-title {
-  text-transform: uppercase;
-  margin-bottom: 20px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
 }
-main .section-decribtion {
+main .section-describtion {
   margin-bottom: 20px;
   color: #555;
-  font-size: 18;
-  line-height: 25;
+  font-size: 18px;
+  line-height: 25px;
 }
 
-main .section-decribtion > a {
-  color: var(--secondary-color);
-  color: #555;
+main .section-describtion > a {
+  color: var(--secondary-colar);
   font-size: inherit;
   line-height: inherit;
   text-decoration: none;
 }
-main .section-decribtion > a:hover {
+main .section-describtion > a:hover {
  text-decoration: underline;
 }
-/* @media (max-width: 900px) {
+ @media (max-width: 900px) {
     main .left-column {
         width: 100%;
         margin-bottom: 80px;
@@ -91,5 +89,5 @@ main .section-decribtion > a:hover {
       main .right-column {
         width: 100%;
   }
-} */
+} 
 
