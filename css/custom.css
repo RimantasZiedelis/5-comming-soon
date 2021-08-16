@@ -17,7 +17,7 @@
 .bg-primary {
   background-color: var(--primary-color);
 }
-bg-secondary {
+.bg-secondary {
   background-color: var(--secondary-colar);
 }
 /* hero content*/
@@ -51,7 +51,7 @@ bg-secondary {
 }
 
 /* main content */
- main .left-column {
+main .left-column {
   width: 50%;
   float: left;
 }
@@ -65,27 +65,22 @@ main .section-title {
    margin-bottom: 20px;
    text-transform: uppercase;
 }
-main .section-describtion {
+main .section-description {
   margin-bottom: 20px;
   color: #555;
   font-size: 18px;
   line-height: 25px;
 }
-
-main .section-decribtion > a {
-  color: var(--secondary-colar);
-  color: #555;
-
+main .section-description > a {
+  color: var(--secondary-color);
   font-size: inherit;
   line-height: inherit;
   text-decoration: none;
 }
-main .section-describtion > a:hover {
- text-decoration: underline;
+main .section-description > a:hover {
+  text-decoration: underline;
 }
-
-@media (max-width: 900px) {
-
+ @media (max-width: 900px) {
     main .left-column {
         width: 100%;
         margin-bottom: 80px;
@@ -94,3 +89,5 @@ main .section-describtion > a:hover {
         width: 100%;
   }
 }
+
+
