@@ -53,10 +53,12 @@ bg-secondary {
 main .left-column {
   width: 50%;
   float: left;
+  
 }
 main .right-column {
   width: 40%;
   float: right;
+ 
 }
 main .section-title {
   text-transform: uppercase;
@@ -89,5 +91,5 @@ main .section-decribtion > a:hover {
            
 }
 
-
+}
 /* footer content*/
