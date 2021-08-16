@@ -74,7 +74,7 @@ main .section-decribtion {
 }
 
 main .section-decribtion > a {
-  color: var(--secondary-color);
+  color: var(--secondary-colar);
   color: #555;
   font-size: inherit;
   line-height: inherit;
@@ -83,7 +83,7 @@ main .section-decribtion > a {
 main .section-decribtion > a:hover {
  text-decoration: underline;
 }
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
     main .left-column {
         width: 100%;
         margin-bottom: 80px;
@@ -91,5 +91,5 @@ main .section-decribtion > a:hover {
       main .right-column {
         width: 100%;
   }
-} */
+}
 
