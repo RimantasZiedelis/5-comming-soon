@@ -49,12 +49,14 @@ bg-secondary {
 .hero .form {
   margin-bottom: 20px;
 }
-/* main content*/
-main .left-column {
+
+/* main content */
+ main .left-column {
   width: 50%;
   float: left;
   
 }
+
 main .right-column {
   width: 40%;
   float: right;
@@ -81,7 +83,7 @@ main .section-decribtion > a {
 main .section-decribtion > a:hover {
  text-decoration: underline;
 }
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     main .left-column {
         width: 100%;
         margin-bottom: 80px;
@@ -89,5 +91,5 @@ main .section-decribtion > a:hover {
       main .right-column {
         width: 100%;
   }
-}
+} */
 
