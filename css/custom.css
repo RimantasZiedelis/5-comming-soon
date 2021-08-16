@@ -72,14 +72,10 @@ main .section-describtion {
   line-height: 25px;
 }
 
-<<<<<<< HEAD
 main .section-decribtion > a {
   color: var(--secondary-colar);
   color: #555;
-=======
-main .section-describtion > a {
-  color: var(--secondary-colar);
->>>>>>> d4ab33c2657da2ab953280fae42ba708e4a446e5
+
   font-size: inherit;
   line-height: inherit;
   text-decoration: none;
@@ -87,11 +83,9 @@ main .section-describtion > a {
 main .section-describtion > a:hover {
  text-decoration: underline;
 }
-<<<<<<< HEAD
+
 @media (max-width: 900px) {
-=======
- @media (max-width: 900px) {
->>>>>>> d4ab33c2657da2ab953280fae42ba708e4a446e5
+
     main .left-column {
         width: 100%;
         margin-bottom: 80px;
@@ -99,9 +93,4 @@ main .section-describtion > a:hover {
       main .right-column {
         width: 100%;
   }
-<<<<<<< HEAD
 }
-=======
-} 
->>>>>>> d4ab33c2657da2ab953280fae42ba708e4a446e5
-
