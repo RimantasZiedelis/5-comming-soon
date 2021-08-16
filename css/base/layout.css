@@ -22,13 +22,13 @@ margin: 0 calc(50% - 300px);
     }
   }
 @media (max-width: 900px) {
-    .container > .row {
+  .container > .row {
     width: 600px;
     margin: 0;
   }    
 }
 @media (max-width: 640px) {
-    .container {
+  .container {
     padding-left: 20px;
     padding-right: 20px;
     }

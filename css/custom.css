@@ -38,7 +38,7 @@
   font-size: 75px;
   text-transform: uppercase;
 }
-.hero .main-describtion {
+.hero .main-description {
   margin-bottom: 40px;
   font-size: 25px;
   color: #555;
@@ -59,11 +59,10 @@ main .left-column {
 main .right-column {
   width: 40%;
   float: right;
- 
 }
 main .section-title {
-   margin-bottom: 20px;
-   text-transform: uppercase;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 main .section-description {
   margin-bottom: 20px;
@@ -72,22 +71,20 @@ main .section-description {
   line-height: 25px;
 }
 main .section-description > a {
-  color: var(--secondary-color);
+  color: var(--secondary-colar);
   font-size: inherit;
   line-height: inherit;
   text-decoration: none;
 }
-main .section-description > a:hover {
+main .section-description > a :hover {
   text-decoration: underline;
 }
- @media (max-width: 900px) {
-    main .left-column {
-        width: 100%;
-        margin-bottom: 80px;
-      }
-      main .right-column {
-        width: 100%;
+@media (max-width: 900px) {
+  main .left-column {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  main .right-column {
+    width: 100%;
   }
 }
-
-
